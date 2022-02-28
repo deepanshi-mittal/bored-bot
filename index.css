@@ -1,0 +1,29 @@
+html,body {
+    margin:0;
+    padding:0;
+}
+
+body {
+    color: #EEEEEE;
+    background: #0f0c29;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #24243e, #302b63, #0f0c29);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #24243e, #302b63, #0f0c29); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: 'Hubballi', cursive;
+}
+
+h1{
+    padding:30px;
+}
+
+button {
+    width:200px;
+    height:50px;
+    border-radius: 10px;
+    border:0px;
+    background-color: #F1E0AC;
+    margin-top:30px;
+    cursor:pointer;
+}
